@@ -5,7 +5,7 @@
   "license": "MIT",
   "version": "2.0.0-beta.13",
   "main": "./lib",
-  "module": "./components",
+  "module": "./lib",
   "typings": "./index.d.ts",
   "author": {
     "email": "javier.velasco86@gmail.com",
