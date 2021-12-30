@@ -17,7 +17,7 @@
   position: relative;
   transition: opacity var(--animation-duration) var(--animation-curve-default);
 
-  @apply --reset;
+
 
   &:not(.active) {
     opacity: 0.5;

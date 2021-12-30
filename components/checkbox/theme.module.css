@@ -9,7 +9,7 @@
   position: relative;
   white-space: nowrap;
 
-  @apply --reset;
+
 
   & .ripple {
     background-color: var(--checkbox-color);
@@ -43,7 +43,7 @@
   vertical-align: top;
   width: var(--checkbox-size);
 
-  @apply --reset;
+
 
   &.checked {
     background-color: var(--checkbox-color);

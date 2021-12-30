@@ -6,7 +6,7 @@
   padding: var(--input-padding) 0;
   position: relative;
 
-  @apply --reset;
+
 
   &.withIcon {
     margin-left: calc(var(--input-icon-size) + var(--input-icon-right-space));

@@ -9,7 +9,7 @@
   user-select: none;
   width: calc(100% - var(--slider-knob-size));
 
-  @apply --reset;
+
 
   &:not(:last-child) {
     margin-right: calc(var(--slider-side-separation) + var(--slider-knob-size));

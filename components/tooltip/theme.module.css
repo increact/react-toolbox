@@ -19,7 +19,7 @@
   transition: var(--animation-curve-default) var(--tooltip-animation-duration) transform;
   z-index: var(--z-index-higher);
 
-  @apply --reset;
+
 
   &.tooltipActive {
     transform: scale(1) translateX(-50%);

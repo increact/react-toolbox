@@ -15,7 +15,7 @@
   vertical-align: middle;
   width: var(--avatar-size);
 
-  @apply --reset;
+
 
   & > svg {
     fill: currentColor;

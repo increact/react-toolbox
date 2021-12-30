@@ -12,7 +12,7 @@
   overflow: hidden;
   width: 100%;
 
-  @apply --reset;
+
 
   &.raised {
     box-shadow: var(--shadow-8p);
