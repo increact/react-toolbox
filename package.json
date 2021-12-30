@@ -11,7 +11,8 @@
     ".": {
       "import": "./dist/react-toolbox.es.js",
       "require": "./dist/react-toolbox.umd.js"
-    }
+    },
+    "./dist/style.css": "./dist/style.css"
   },
   "author": {
     "email": "javier.velasco86@gmail.com",
