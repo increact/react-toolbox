@@ -5,10 +5,10 @@ import ReactDOM from 'react-dom';
 import classnames from 'classnames';
 import { themr } from 'react-css-themr';
 import { isValuePresent } from '../utils/utils';
-import { AUTOCOMPLETE } from '../identifiers.js';
-import InjectChip from '../chip/Chip.js';
-import InjectInput from '../input/Input.js';
-import events from '../utils/events.js';
+import { AUTOCOMPLETE } from '../identifiers';
+import InjectChip from '../chip/Chip';
+import InjectInput from '../input/Input';
+import events from '../utils/events.jsx';
 
 const POSITION = {
   AUTO: 'auto',
