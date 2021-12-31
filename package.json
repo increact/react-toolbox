@@ -4,15 +4,10 @@
   "homepage": "http://react-toolbox.io/",
   "license": "MIT",
   "version": "2.0.0-beta.13",
-  "main": "./dist/react-toolbox.umd.js",
-  "module": "./dist/react-toolbox.es.js",
+  "main": "./lib/index.js",
   "typings": "./index.d.ts",
   "exports": {
-    ".": {
-      "import": "./dist/react-toolbox.es.js",
-      "require": "./dist/react-toolbox.umd.js"
-    },
-    "./dist/style.css": "./dist/style.css"
+    ".": "./lib/index.js"
   },
   "author": {
     "email": "javier.velasco86@gmail.com",
