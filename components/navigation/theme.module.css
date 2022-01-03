@@ -22,7 +22,7 @@
 .horizontal {
   padding: calc(var(--navigation-space) / 2);
 
-
+  @apply --reset;
 
   & > [data-react-toolbox='link'] {
     color: var(--navigation-color);

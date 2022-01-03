@@ -24,7 +24,7 @@
   white-space: nowrap;
   width: 100%;
 
-
+  @apply --reset;
 
   & + .divider {
     margin-top: calc(-1 * var(--list-vertical-padding));

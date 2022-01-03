@@ -79,7 +79,7 @@
 .dropdown {
   position: relative;
 
-
+  @apply --reset;
 
   &:not(.active) {
     & > .values {

@@ -27,7 +27,7 @@
     color 0.2s var(--animation-curve-default);
   white-space: nowrap;
 
-
+  @apply --reset;
 
   & > input {
     height: 0.1px;
