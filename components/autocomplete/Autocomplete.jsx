@@ -8,7 +8,7 @@ import { isValuePresent } from '../utils/utils';
 import { AUTOCOMPLETE } from '../identifiers';
 import InjectChip from '../chip/Chip';
 import InjectInput from '../input/Input';
-import events from '../utils/events.jsx';
+import events from '../utils/events';
 
 const POSITION = {
   AUTO: 'auto',
