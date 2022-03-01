@@ -8,9 +8,7 @@
   height: 64px;
   padding: 0 24px;
   transition-duration: 0.5s;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   box-sizing: border-box;
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
@@ -18,7 +16,6 @@
   font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
      -moz-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
           text-size-adjust: 100%
 }
 .appBar *,
@@ -29,13 +26,11 @@
   font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
      -moz-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
           text-size-adjust: 100%;
   -webkit-touch-callout: none;
     }
 .appBar.scrollHide {
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
+    transform: translateY(-100%);
   }
 .appBar:not(.flat) {
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14),

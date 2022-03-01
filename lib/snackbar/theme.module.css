@@ -26,7 +26,6 @@
   font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
      -moz-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
           text-size-adjust: 100%
 }
 .snackbar *,
@@ -37,7 +36,6 @@
   font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
      -moz-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
           text-size-adjust: 100%;
   -webkit-touch-callout: none;
     }
@@ -51,12 +49,10 @@
     color: rgb(244, 67, 54);
   }
 .snackbar:not(.active) {
-    -webkit-transform: translateY(100%);
-            transform: translateY(100%);
+    transform: translateY(100%);
   }
 .snackbar.active {
-    -webkit-transform: translateY(0%);
-            transform: translateY(0%);
+    transform: translateY(0%);
   }
 .label {
   flex-grow: 1;

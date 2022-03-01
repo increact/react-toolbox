@@ -13,7 +13,6 @@
   font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
      -moz-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
           text-size-adjust: 100%
 }
 .container *,
@@ -24,7 +23,6 @@
   font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
      -moz-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
           text-size-adjust: 100%;
   -webkit-touch-callout: none;
     }
@@ -142,18 +140,10 @@
       margin-left: 3px;
       position: absolute;
       top: 0;
-      -webkit-transform: rotate(-45deg) scale(0) translate(0);
-              transform: rotate(-45deg) scale(0) translate(0);
-      transition:
-        background-color 0.18s ease,
-        -webkit-transform 0.2s ease;
+      transform: rotate(-45deg) scale(0) translate(0);
       transition:
         transform 0.2s ease,
         background-color 0.18s ease;
-      transition:
-        transform 0.2s ease,
-        background-color 0.18s ease,
-        -webkit-transform 0.2s ease;
       width: 26px;
     }
 .slider.pinned .innerknob::after {
@@ -165,18 +155,10 @@
       position: absolute;
       text-align: center;
       top: 0;
-      -webkit-transform: scale(0) translate(0);
-              transform: scale(0) translate(0);
-      transition:
-        background-color 0.18s ease,
-        -webkit-transform 0.2s ease;
+      transform: scale(0) translate(0);
       transition:
         transform 0.2s ease,
         background-color 0.18s ease;
-      transition:
-        transform 0.2s ease,
-        background-color 0.18s ease,
-        -webkit-transform 0.2s ease;
       width: 32px;
     }
 .slider.ring .innerknob {
@@ -201,13 +183,11 @@
         width: 100%;
       }
 .slider.pressed.pinned .innerknob::before {
-        -webkit-transform: rotate(-45deg) scale(1) translate(17px, -17px);
-                transform: rotate(-45deg) scale(1) translate(17px, -17px);
+        transform: rotate(-45deg) scale(1) translate(17px, -17px);
         transition-delay: 100ms;
       }
 .slider.pressed.pinned .innerknob::after {
-        -webkit-transform: scale(1) translate(0, -17px);
-                transform: scale(1) translate(0, -17px);
+        transform: scale(1) translate(0, -17px);
         transition-delay: 100ms;
       }
 .slider.pressed:not(.pinned).ring .progress {
@@ -216,7 +196,6 @@
       }
 .slider.pressed:not(.pinned) .innerknob {
         height: 100%;
-        -webkit-transform: translateZ(0);
-                transform: translateZ(0);
+        transform: translateZ(0);
         width: 100%;
       }

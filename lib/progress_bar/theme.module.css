@@ -8,10 +8,8 @@
   position: absolute;
   right: 0;
   top: 0;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transform-origin: left center;
-          transform-origin: left center;
+  transform: scaleX(0);
+  transform-origin: left center;
   transition-duration: 0.35s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -26,8 +24,7 @@
 .linear.indeterminate .value {
     -webkit-animation: linear-indeterminate-bar 1s linear infinite;
             animation: linear-indeterminate-bar 1s linear infinite;
-    -webkit-transform-origin: center center;
-            transform-origin: center center;
+    transform-origin: center center;
   }
 .buffer {
   background-image:
@@ -52,8 +49,7 @@
   display: inline-block;
   height: 60px;
   position: relative;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  transform: rotate(-90deg);
   width: 60px
 }
 .circular.indeterminate .circle {
@@ -84,46 +80,38 @@
   }
 @-webkit-keyframes linear-indeterminate-bar {
   0% {
-    -webkit-transform: translate(-50%) scaleX(0);
-            transform: translate(-50%) scaleX(0);
+    transform: translate(-50%) scaleX(0);
   }
 
   50% {
-    -webkit-transform: translate(-0%) scaleX(0.3);
-            transform: translate(-0%) scaleX(0.3);
+    transform: translate(-0%) scaleX(0.3);
   }
 
   100% {
-    -webkit-transform: translate(50%) scaleX(0);
-            transform: translate(50%) scaleX(0);
+    transform: translate(50%) scaleX(0);
   }
 }
 @keyframes linear-indeterminate-bar {
   0% {
-    -webkit-transform: translate(-50%) scaleX(0);
-            transform: translate(-50%) scaleX(0);
+    transform: translate(-50%) scaleX(0);
   }
 
   50% {
-    -webkit-transform: translate(-0%) scaleX(0.3);
-            transform: translate(-0%) scaleX(0.3);
+    transform: translate(-0%) scaleX(0.3);
   }
 
   100% {
-    -webkit-transform: translate(50%) scaleX(0);
-            transform: translate(50%) scaleX(0);
+    transform: translate(50%) scaleX(0);
   }
 }
 @-webkit-keyframes circular-indeterminate-bar-rotate {
   100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 @keyframes circular-indeterminate-bar-rotate {
   100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 @-webkit-keyframes circular-indeterminate-bar-dash {
