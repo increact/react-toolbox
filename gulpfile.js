@@ -7,6 +7,7 @@ const paths = {
   js: {
     src: [
       './components/**/*.js',
+	  './components/**/*.jsx',
       '!./components/**/*.spec.js',
       '!./components/**/__test__',
       '!./components/__mocks__/**/*.js'
