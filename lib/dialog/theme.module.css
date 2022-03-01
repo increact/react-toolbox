@@ -16,7 +16,6 @@
   font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
      -moz-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
           text-size-adjust: 100%;
 }
 .wrapper *,
@@ -27,7 +26,6 @@
   font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
      -moz-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
           text-size-adjust: 100%;
   -webkit-touch-callout: none;
     }
@@ -40,24 +38,15 @@
   max-width: 96vw;
   opacity: 0;
   overflow: inherit;
-  -webkit-transform: translateY(-40px);
-          transform: translateY(-40px);
-  transition:
-    opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1),
-    -webkit-transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(-40px);
   transition:
     opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1),
     transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
-  transition:
-    opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1),
-    transform 0.35s cubic-bezier(0.4, 0, 0.2, 1),
-    -webkit-transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0.07s
 }
 .dialog.active {
     opacity: 1;
-    -webkit-transform: translateY(0%);
-            transform: translateY(0%);
+    transform: translateY(0%);
   }
 .small {
   width: 30vw

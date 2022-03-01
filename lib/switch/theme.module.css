@@ -9,7 +9,6 @@
   font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
      -moz-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
           text-size-adjust: 100%;
 }
 .field *,
@@ -20,7 +19,6 @@
   font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
      -moz-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
           text-size-adjust: 100%;
   -webkit-touch-callout: none;
     }
@@ -49,7 +47,6 @@
   font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
      -moz-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
           text-size-adjust: 100%
 }
 .thumb *,
@@ -60,7 +57,6 @@
   font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
      -moz-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
           text-size-adjust: 100%;
   -webkit-touch-callout: none;
     }
@@ -120,8 +116,7 @@
       left: 50%;
       position: absolute;
       top: 50%;
-      -webkit-transform: translate(-4px, -4px);
-              transform: translate(-4px, -4px);
+      transform: translate(-4px, -4px);
       width: 8px;
     }
 .input:focus:not(:active) + .switch-on > .thumb::before {

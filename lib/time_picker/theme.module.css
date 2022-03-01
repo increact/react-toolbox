@@ -78,8 +78,7 @@
   left: 50%;
   position: absolute;
   top: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
   z-index: 100;
 }
 .number {
@@ -116,8 +115,7 @@
   left: 50%;
   margin-left: -2px;
   position: absolute;
-  -webkit-transform-origin: 50% 100%;
-          transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
   width: 4px
 }
 .hand::before {
@@ -164,30 +162,24 @@
 .zoomInEnterActive,
 .zoomInExitActive {
   transition-duration: 500ms;
-  transition-property: opacity, -webkit-transform;
   transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .zoomInEnter {
   opacity: 0;
-  -webkit-transform: scale(0.85);
-          transform: scale(0.85)
+  transform: scale(0.85)
 }
 .zoomInEnter.zoomInEnterActive {
     opacity: 1;
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 .zoomInExit {
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1)
+  transform: scale(1)
 }
 .zoomInExit.zoomInExitActive {
     opacity: 0;
-    -webkit-transform: scale(1.25);
-            transform: scale(1.25);
+    transform: scale(1.25);
   }
 .zoomOutEnter,
 .zoomOutExit {
@@ -196,28 +188,22 @@
 .zoomOutEnterActive,
 .zoomOutExitActive {
   transition-duration: 500ms;
-  transition-property: opacity, -webkit-transform;
   transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .zoomOutEnter {
   opacity: 0;
-  -webkit-transform: scale(1.25);
-          transform: scale(1.25)
+  transform: scale(1.25)
 }
 .zoomOutEnter.zoomOutEnterActive {
     opacity: 1;
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 .zoomOutExit {
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1)
+  transform: scale(1)
 }
 .zoomOutExit.zoomOutExitActive {
     opacity: 0;
-    -webkit-transform: scale(0.85);
-            transform: scale(0.85);
+    transform: scale(0.85);
   }

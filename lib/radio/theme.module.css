@@ -13,7 +13,6 @@
   font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
      -moz-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
           text-size-adjust: 100%
 }
 .radio *,
@@ -24,7 +23,6 @@
   font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
      -moz-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
           text-size-adjust: 100%;
   -webkit-touch-callout: none;
     }
@@ -36,11 +34,8 @@
     left: 0;
     position: absolute;
     top: 0;
-    -webkit-transform: scale(0);
-            transform: scale(0);
-    transition: -webkit-transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: scale(0);
     transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-    transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     width: 100%;
   }
 .radio .ripple {
@@ -53,8 +48,7 @@
   composes: radio
 }
 .radioChecked::before {
-    -webkit-transform: scale(0.65);
-            transform: scale(0.65);
+    transform: scale(0.65);
   }
 .field {
   display: block;

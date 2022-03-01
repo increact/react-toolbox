@@ -10,10 +10,8 @@
   position: absolute;
   text-align: center;
   text-transform: none;
-  -webkit-transform: scale(0) translateX(-50%);
-          transform: scale(0) translateX(-50%);
-  -webkit-transform-origin: top left;
-          transform-origin: top left;
+  transform: scale(0) translateX(-50%);
+  transform-origin: top left;
   transition: cubic-bezier(0.4, 0, 0.2, 1) 200ms transform;
   z-index: 200;
   box-sizing: border-box;
@@ -22,7 +20,6 @@
   font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
      -moz-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
           text-size-adjust: 100%
 }
 .tooltip *,
@@ -33,37 +30,29 @@
   font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
      -moz-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
           text-size-adjust: 100%;
   -webkit-touch-callout: none;
     }
 .tooltip.tooltipActive {
-    -webkit-transform: scale(1) translateX(-50%);
-            transform: scale(1) translateX(-50%);
+    transform: scale(1) translateX(-50%);
   }
 .tooltip.tooltipTop {
-    -webkit-transform: scale(0) translateX(-50%) translateY(-100%);
-            transform: scale(0) translateX(-50%) translateY(-100%)
+    transform: scale(0) translateX(-50%) translateY(-100%)
   }
 .tooltip.tooltipTop.tooltipActive {
-      -webkit-transform: scale(1) translateX(-50%) translateY(-100%);
-              transform: scale(1) translateX(-50%) translateY(-100%);
+      transform: scale(1) translateX(-50%) translateY(-100%);
     }
 .tooltip.tooltipLeft {
-    -webkit-transform: scale(0) translateX(-100%) translateY(-50%);
-            transform: scale(0) translateX(-100%) translateY(-50%)
+    transform: scale(0) translateX(-100%) translateY(-50%)
   }
 .tooltip.tooltipLeft.tooltipActive {
-      -webkit-transform: scale(1) translateX(-100%) translateY(-50%);
-              transform: scale(1) translateX(-100%) translateY(-50%);
+      transform: scale(1) translateX(-100%) translateY(-50%);
     }
 .tooltip.tooltipRight {
-    -webkit-transform: scale(0) translateX(0) translateY(-50%);
-            transform: scale(0) translateX(0) translateY(-50%)
+    transform: scale(0) translateX(0) translateY(-50%)
   }
 .tooltip.tooltipRight.tooltipActive {
-      -webkit-transform: scale(1) translateX(0) translateY(-50%);
-              transform: scale(1) translateX(0) translateY(-50%);
+      transform: scale(1) translateX(0) translateY(-50%);
     }
 .tooltipInner {
   background: rgba(97, 97, 97, 0.9);

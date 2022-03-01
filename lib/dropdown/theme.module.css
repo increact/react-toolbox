@@ -12,9 +12,7 @@
     position: absolute;
     right: 8px;
     top: 50%;
-    transition: -webkit-transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
     transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
-    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
     width: 0;
   }
 .label {
@@ -70,7 +68,6 @@
   font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
      -moz-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
           text-size-adjust: 100%
 }
 .dropdown *,
@@ -81,7 +78,6 @@
   font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
      -moz-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
           text-size-adjust: 100%;
   -webkit-touch-callout: none;
     }

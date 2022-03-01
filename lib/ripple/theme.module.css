@@ -14,8 +14,7 @@
   pointer-events: none;
   position: absolute;
   top: 50%;
-  -webkit-transform-origin: 50% 50%;
-          transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
   transition-duration: 800ms;
   z-index: 100
 }
@@ -25,13 +24,9 @@
   }
 .ripple.rippleActive {
     opacity: 0.3;
-    transition-property: -webkit-transform;
     transition-property: transform;
-    transition-property: transform, -webkit-transform;
   }
 .ripple:not(.rippleActive):not(.rippleRestarting) {
     opacity: 0;
-    transition-property: opacity, -webkit-transform;
     transition-property: opacity, transform;
-    transition-property: opacity, transform, -webkit-transform;
   }
