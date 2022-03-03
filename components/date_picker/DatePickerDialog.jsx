@@ -51,6 +51,10 @@ const factory = (Dialog, Calendar) => {
       date: this.props.value,
     };
 
+    handleSelect = (event) => {
+      if (this.props.onSelect) this.props.onSelect(this.state.date, event);
+    };
+
     actions = [{
       label: this.props.cancelLabel,
       className: this.props.theme.button,
@@ -83,10 +87,6 @@ const factory = (Dialog, Calendar) => {
       if (dayClick && this.props.autoOk && this.props.onSelect) {
         this.props.onSelect(value);
       }
-    };
-
-    handleSelect = (event) => {
-      if (this.props.onSelect) this.props.onSelect(this.state.date, event);
     };
 
     handleSwitchDisplay = (event) => {

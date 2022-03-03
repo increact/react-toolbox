@@ -48,6 +48,10 @@ const factory = (Dialog) => {
       displayTime: new Date(this.props.value.getTime()),
     };
 
+    handleSelect = (event) => {
+      this.props.onSelect(this.state.displayTime, event);
+    };
+
     actions = [{
       label: this.props.cancelLabel,
       className: this.props.theme.button,
@@ -74,10 +78,6 @@ const factory = (Dialog) => {
 
     handleClockChange = (value) => {
       this.setState({ displayTime: value });
-    };
-
-    handleSelect = (event) => {
-      this.props.onSelect(this.state.displayTime, event);
     };
 
     toggleTimeMode = () => {
