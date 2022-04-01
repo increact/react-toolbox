@@ -71,6 +71,7 @@
   --animation-curve-fast-out-linear-in: cubic-bezier(0.4, 0, 1, 1);
   --animation-curve-default: var(--animation-curve-fast-out-slow-in);
 
+  --z-index-antd: 1001;
   --z-index-highest: 300;
   --z-index-higher: 200;
   --z-index-high: 100;

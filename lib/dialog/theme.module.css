@@ -9,7 +9,7 @@
   position: fixed;
   top: 0;
   width: 100vw;
-  z-index: 200;
+  z-index: 1001;
   box-sizing: border-box;
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   -webkit-font-smoothing: antialiased;
