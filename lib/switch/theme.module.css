@@ -7,9 +7,7 @@
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-     -moz-text-size-adjust: 100%;
-          text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 .field *,
     .field *::after,
@@ -17,9 +15,7 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-     -moz-text-size-adjust: 100%;
-          text-size-adjust: 100%;
+  text-size-adjust: 100%;
   -webkit-touch-callout: none;
     }
 .text {
@@ -45,9 +41,7 @@
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-     -moz-text-size-adjust: 100%;
-          text-size-adjust: 100%
+  text-size-adjust: 100%
 }
 .thumb *,
     .thumb *::after,
@@ -55,9 +49,7 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-     -moz-text-size-adjust: 100%;
-          text-size-adjust: 100%;
+  text-size-adjust: 100%;
   -webkit-touch-callout: none;
     }
 .thumb .ripple {

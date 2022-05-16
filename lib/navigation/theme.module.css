@@ -16,9 +16,7 @@
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-     -moz-text-size-adjust: 100%;
-          text-size-adjust: 100%
+  text-size-adjust: 100%
 }
 .vertical *,
     .vertical *::after,
@@ -29,9 +27,7 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-     -moz-text-size-adjust: 100%;
-          text-size-adjust: 100%;
+  text-size-adjust: 100%;
   -webkit-touch-callout: none;
     }
 .vertical > [data-react-toolbox='link'], .horizontal > [data-react-toolbox='link'] {

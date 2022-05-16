@@ -2,18 +2,14 @@
   height: 32px;
   margin-right: 32px;
   position: relative;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -ms-user-select: none;
+      user-select: none;
   width: calc(100% - 32px);
   box-sizing: border-box;
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-     -moz-text-size-adjust: 100%;
-          text-size-adjust: 100%
+  text-size-adjust: 100%
 }
 .container *,
     .container *::after,
@@ -21,9 +17,7 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-     -moz-text-size-adjust: 100%;
-          text-size-adjust: 100%;
+  text-size-adjust: 100%;
   -webkit-touch-callout: none;
     }
 .container:not(:last-child) {

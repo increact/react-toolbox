@@ -11,9 +11,7 @@
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-     -moz-text-size-adjust: 100%;
-          text-size-adjust: 100%
+  text-size-adjust: 100%
 }
 .radio *,
     .radio *::after,
@@ -21,9 +19,7 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-     -moz-text-size-adjust: 100%;
-          text-size-adjust: 100%;
+  text-size-adjust: 100%;
   -webkit-touch-callout: none;
     }
 .radio::before {
@@ -85,7 +81,6 @@
     }
 .input {
   -webkit-appearance: none;
-     -moz-appearance: none;
           appearance: none;
   border: 0;
   height: 0;
